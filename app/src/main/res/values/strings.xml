@@ -1,0 +1,48 @@
+<resources>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- AppBar-->
+    <string name="app_name">Zermelo Notifier</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search_title">Search</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Settings -->
+    <string name="school_code_description">Find this at koppelingen -> koppel app</string>
+    <string name="key_pref_token">token_key</string>
+    <string name="authorization_code_description">12 digit code found at koppel app</string>
+    <string name="verify_title">Verify</string>
+    <string name="verify_button_key">verify_button</string>
+    <string name="verify_summary">Press this to verify you with zermelo</string>
+
+    <string name="prompt_connect">Please enter the following details</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <!-- Settings / NotificationSettings -->
+    <string name="category_notification_settings">Notification Settings</string>
+
+    <string name="title_enable_syncing">Enable notifications</string>
+    <string name="summary_enable_syncing">Enable this if you want your device to check your schedule regularly for changes.</string>
+    <string name="key_enable_syncing">enable_syncing_key</string>
+
+    <string name="title_pick_sync_time">Choose interval</string>
+    <string name="summary_pick_sync_time">Choose how often your device checks your schedule</string>
+    <string name="key_pick_sync_time">pick_sync_time_key</string>
+
+    <string name="title_only_wifi">Only check on wifi</string>
+    <string name="summary_only_wifi">Check this if you only want your device to check changes in your schedule when you are on wifi</string>
+    <string name="key_only_wifi">only_wifi_key</string>
+
+    <!-- Dialogs -->
+    <string name="school_code_hint">School code</string>
+    <string name="authorization_code_hint">Authorization code</string>
+    <string name="key_pref_school_code">school_code_key</string>
+
+    <string name="user_code_hint">User</string>
+    <string name="how_to">To find these codes, visit your schedule online and go to koppelingen and koppel app</string>
+    <string name="key_pref_user_code">user_code_key</string>
+
+    <string name="current_day_placeholder">Today</string>
+    <string name="until">until</string>
+</resources>

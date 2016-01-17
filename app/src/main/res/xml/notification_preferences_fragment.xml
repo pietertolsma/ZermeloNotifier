@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/category_notification_settings">
+
+        <CheckBoxPreference
+            android:id="@+id/enable_syncing_id"
+            android:key="@string/key_enable_syncing"
+            android:title="@string/title_enable_syncing"
+            android:summary="@string/summary_enable_syncing" />
+        <com.tolsma.pieter.zermelonotifier.TimePickerPreferenceDialog
+            android:title="@string/title_pick_sync_time"
+                    android:summary="@string/summary_pick_sync_time"
+                    android:key="@string/key_pick_sync_time"/>
+        <CheckBoxPreference
+            android:key="@string/key_only_wifi"
+            android:title="@string/title_only_wifi"
+            android:summary="@string/summary_only_wifi" />
+    </PreferenceCategory>
+</PreferenceScreen>

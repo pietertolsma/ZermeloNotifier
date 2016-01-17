@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.tolsma.pieter.zermelonotifier.SettingsActivity$ConnectionPreferencesFragment"
+            android:title="Connection Preferences"
+            android:summary="Connect to your schools' schedule" />
+    <header android:fragment="com.tolsma.pieter.zermelonotifier.SettingsActivity$NotificationPreferencesFragment"
+            android:title="Notification Preferences"
+            android:summary="Set when en on what you want to be notified." />
+
+</preference-headers>
