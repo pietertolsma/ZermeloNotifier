@@ -1,5 +1,6 @@
 # Zermelo Notifier
 Schedule android app for the Zermelo API, meant to push notifications when a change in schedule occurs.
+[I used this API](https://zermelo.atlassian.net/wiki/display/DEV/Introduction)
 
 ## Why did I make this app?
 I was dissatisfied with the current application that Zermelo provides. It was slow and did not notify me when a lesson changed.
